@@ -1,0 +1,22 @@
+name: RL
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - cmake=3.22.1
+  - boost=1.73
+  - notebook=6.5.4
+  - tk>=8.6.8
+  - matplotlib=3.5.3
+  - plotly=5.19.0
+  - pandas=1.5.3
+  - pip=23.3.1
+  - swig  # needed for Box2D
+  - pip:
+      - gymnasium[box2d]==0.29.1
+      - numpy==1.21.6
+      - Pillow==9.5.0
+      - keyboard==0.13.5
+      - cloudpickle==2.0.0
+      - osmium==3.7.0
